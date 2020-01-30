@@ -1,0 +1,20 @@
+body {
+    background-color: floralwhite;
+}
+
+.time-row1 {
+    height: 85px;
+}
+
+input {
+    height: 40px;
+}
+
+.tod {
+    text-align: right;
+    color: green;
+}
+
+#time-date {
+    color: green;
+}
