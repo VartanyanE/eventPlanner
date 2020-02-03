@@ -11,9 +11,6 @@ $(document).ready(function () {
     $('.task17').val(localStorage.getItem('5PM'));
     $('#time-date').text(moment().format("dddd, MMMM Do YYYY"));
 
-
-
-
     var nine = Number(moment().format('9'));
     var ten = Number(moment().format('10'));
     var eleven = Number(moment().format('11'));
