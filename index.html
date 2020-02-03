@@ -6,144 +6,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Event Planner</title>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Bangers|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Bangers|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron jumbo-class">
-            <!-- <h2 style="text-align: center;">WELCOME TO THE MOST IMPORTANT QUIZ OF YOUR LIFE</h2> -->
+    <div class="container-fluid">
+        <div class="jumbotron jumbo-class my-jumbo">
 
             <div class="text-center">
-                <h2>Daily Tasks</h2>
-                <span id="time-date"></span>
+                <h2 style="font-family: 'Source Code Pro', monospace;
+                ">Daily Tasks</h2>
+                <span id="time-date" style="font-family: 'Source Code Pro', monospace;"></span>
             </div>
         </div>
-
-        <div class="row">
+    </div>
+    <div class="container">
+        <div class="row rows">
             <div class="col-2 tod">
-                <h5>9AM</h5>
+                <h6>9AM</h6>
             </div>
             <div class="col-8 time-rows">
-                <form class="task-form">
-                    <input type="text" style="width:100%" class="task">
+                <form class="task-form9 ">
+                    <input type="text" style="width:100%" class="task9 ">
                 </form>
             </div>
 
             <div class="col-2 save">
-                <button type="button" class="btn btn-info save-button">Save</button>
+                <button type="button" class="btn btn-info save-button9">Save Task</button>
             </div>
         </div>
-        <br>
-        <div class="row">
+
+        <div class="row rows ">
             <div class="col-2 tod">
-                <h5>10AM</h5>
+                <h6>10AM</h6>
             </div>
             <div class="col-8 time-rows">
-                <form action="input">
-                    <input type="text" style="width:100%">
+                <form class="task-form10">
+                    <input type="text" style="width:100%" class="task10">
                 </form>
             </div>
-            <div class="col-2 time-rows"></div>
+            <div class="col-2 save">
+                <button type="button" class="btn btn-info save-button10">Save Task</button>
+
+            </div>
         </div>
 
-        <br>
 
-        <div class="row">
+
+        <div class="row rows">
             <div class="col-2 tod">
-                <h5>11AM</h5>
+                <h6>11AM</h6>
             </div>
             <div class="col-8 time-rows">
-                <form action="input">
-                    <input type="text" style="width:100%">
+                <form class="task-form11">
+                    <input type="text" style="width:100%" class="task11">
                 </form>
             </div>
-            <div class="col-2 time-rows"></div>
+            <div class="col-2 save"> <button type="button" class="btn btn-info save-button11">Save Task</button>
+            </div>
         </div>
 
-        <br>
-        <div class="row">
+
+        <div class="row rows">
             <div class="col-2 tod">
-                <h5>NOON</h5>
+                <h6>NOON</h6>
             </div>
             <div class="col-8 time-rows">
-                <form action="input">
-                    <input type="text" style="width:100%">
+                <form class="task-form12">
+                    <input type="text" style="width:100%" class="task12">
                 </form>
             </div>
-            <div class="col-2 time-rows"></div>
-        </div>
-        <br>
-
-
-        <div class="row">
-            <div class="col-2 tod">
-                <h5>1PM</h5>
-            </div>
-            <div class="col-8 time-rows">
-                <form action="input">
-                    <input type="text" style="width:100%">
-                </form>
-            </div>
-            <div class="col-2 time-rows"></div>
+            <div class="col-2 save"> <button type="button" class="btn btn-info save-button12">Save Task</button></div>
         </div>
 
-        <br>
-        <div class="row">
+
+
+        <div class="row rows">
             <div class="col-2 tod">
-                <h5>2PM</h5>
+                <h6>1PM</h6>
             </div>
             <div class="col-8 time-rows">
-                <form action="input">
-                    <input type="text" style="width:100%">
+                <form class="task-form13">
+                    <input type="text" style="width:100%" class="task13">
                 </form>
             </div>
-            <div class="col-2 time-rows"></div>
+            <div class="col-2 save"> <button type="button" class="btn btn-info save-button13">Save Task</button></div>
         </div>
 
-        <br>
-        <div class="row">
+
+        <div class="row rows">
             <div class="col-2 tod">
-                <h5>3PM</h5>
+                <h6>2PM</h6>
             </div>
             <div class="col-8 time-rows">
-                <form action="input">
-                    <input type="text" style="width:100%">
+                <form class="task-form14">
+                    <input type="text" style="width:100%" class="task14">
                 </form>
             </div>
-            <div class="col-2 time-rows"></div>
+            <div class="col-2 save"> <button type="button" class="btn btn-info save-button14">Save Task</button></div>
         </div>
 
-        <br>
-        <div class="row">
+
+        <div class="row rows">
             <div class="col-2 tod">
-                <h5>4PM</h5>
+                <h6>3PM</h6>
             </div>
             <div class="col-8 time-rows">
-                <form action="input">
-                    <input type="text" style="width:100%">
+                <form class="task-form15">
+                    <input type="text" style="width:100%" class="task15">
                 </form>
             </div>
-            <div class="col-2 time-rows"></div>
+            <div class="col-2 save"> <button type="button" class="btn btn-info save-button15">Save Task</button></div>
         </div>
 
-        <br>
 
-        <div class="row">
+        <div class="row rows">
             <div class="col-2 tod">
-                <h5>5PM</h5>
+                <h6>4PM</h6>
             </div>
             <div class="col-8 time-rows">
-                <form action="input">
-                    <input type="text" style="width:100%">
+                <form class="task-form16">
+                    <input type="text" style="width:100%" class="task16">
                 </form>
             </div>
-            <div class="col-2 time-rows"></div>
+            <div class="col-2 save"> <button type="button" class="btn btn-info save-button16">Save Task</button>
+            </div>
+        </div>
+
+
+
+        <div class="row rows">
+            <div class="col-2 tod">
+                <h6>5PM</h6>
+            </div>
+            <div class="col-8 time-rows">
+                <form class="task-form17">
+                    <input type="text" style="width:100%" class="task17">
+                </form>
+            </div>
+            <div class="col-2 save"> <button type="button" class="btn btn-info save-button17">Save Task</button></div>
         </div>
 
 

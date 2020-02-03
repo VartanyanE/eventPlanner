@@ -1,5 +1,6 @@
 body {
     background-color: floralwhite;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .time-row1 {
@@ -17,4 +18,32 @@ input {
 
 #time-date {
     color: green;
+}
+
+.my-jumbo {
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    background-color: lightgreen;
+}
+
+.save-button9, .save-button10, .save-button11, .save-button12, .save-button13, .save-button14, .save-button15, .save-button16, .save-button17 {
+    background-color: green;
+}
+
+.rows {
+    margin-bottom: 10px;
+}
+
+.past {
+    background-color: lightslategray;
+}
+
+.present {
+    background-color: red;
+}
+
+.future {
+    background-color: green;
 }
